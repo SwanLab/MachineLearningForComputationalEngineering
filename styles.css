@@ -307,8 +307,8 @@ body {
 }
 
 .contributor-image img {
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid var(--gray20);
@@ -357,6 +357,11 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid blue;
 }
 
+.reviews {
+    margin: 2em 6em;
+}
 .reviews-quote {
-
+    font-size: 1.5em;
+    margin: 2em 0;
+    color: var(--gray50)
 }
