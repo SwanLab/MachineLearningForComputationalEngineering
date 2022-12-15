@@ -222,7 +222,7 @@ body {
 }
 
 .section-newExample {
-    border-radius: 2px;
+    border-radius: 25px;
     margin: 0 2em 2em 0;
     max-width: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
