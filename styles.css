@@ -9,11 +9,11 @@
     --gray50: #303236;
     --gray60: #1f1f1f;
     --black: black;
-    --primary: #ff4040;
+    --primary: #ac2c2c;
     --primary-soft: #fce3e3;
     --white: white;
     --font-main: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --size-72: 2.75em;
+    --size-72: 2.25em;
     --size-32: 1.25em;
   }
 
@@ -362,7 +362,6 @@ body::-webkit-scrollbar-thumb {
     margin: 2em 6em;
 }
 .reviews-quote {
-    font-size: 1.5em;
     margin: 2em 0;
     color: var(--gray50)
 }
