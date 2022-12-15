@@ -20,6 +20,8 @@
 body {
     background: white;
     font-family: var(--font-main);
+    font-size: 1.3em;
+    line-height: 1.75em;
 }
 
 .top-navbar {
@@ -212,7 +214,7 @@ body {
 
 .section-examples {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     max-width: 100%;
     justify-content: center;
@@ -222,14 +224,19 @@ body {
 .section-newExample {
     border-radius: 2px;
     margin: 0 2em 2em 0;
-    max-width: 500px;
+    max-width: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .section-newExample-content {
     padding: 2em;
 }
 
+.section-newExample-imgHorizontal {
+    min-width: 25%;
+}
 .section-newExample-imgHorizontal img {
     width: 100%;
 }
@@ -285,7 +292,7 @@ body {
 /* contributors */
 .section-contributors {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     max-width: 100%;
     justify-content: center;
@@ -295,15 +302,13 @@ body {
     align-self: flex-start;
     margin: 2em 2em;
     display: flex;
-    max-width: 250px;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    text-align: center;
 }
 
 .contributor-image img {
-    width: 120px;
-    height: 120px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid var(--gray20);
@@ -316,7 +321,7 @@ body {
 }
 
 .contributor-text {
-    color: var(--gray60)
+    color: var(--gray50)
 }
 
 .contributor-text a {
@@ -350,4 +355,8 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: red;
   outline: 1px solid blue;
+}
+
+.reviews-quote {
+
 }
