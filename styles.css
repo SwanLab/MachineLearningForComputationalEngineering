@@ -354,3 +354,29 @@ body {
     margin: 2em 0;
     color: var(--gray50)
 }
+
+/* */
+
+.timetable {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.timetable-table {
+    width: 100%;
+    text-align: center;
+}
+
+.timetable-table tbody tr th {
+    background-color: var(--gray-canvas);
+    font-weight: 800;
+    padding: 0.75rem 0;
+}
+
+.timetable-table tbody tr td {
+    padding: 1.25rem 0;
+}
+
+.timetable-lesson {
+    font-weight: 600;
+}
