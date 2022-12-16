@@ -379,4 +379,9 @@ body {
 
 .timetable-lesson {
     font-weight: 600;
+    text-decoration: none;
+}
+
+.timetable-lesson:hover {
+    color: var(--gray60);
 }
